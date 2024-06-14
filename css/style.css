@@ -1,0 +1,178 @@
+.logo{
+    width: 140px !important;
+}
+
+.dropdown-toggle::after{
+    position: absolute;
+    right: 0;
+    top: 70%;
+}
+
+.dropdown-menu{
+    width: 450px;
+}
+
+.delivery-drop-down h5{
+    font-size: 14px !important;
+}
+
+.delivery-drop-down div span{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    font-size: 12px;
+    position: relative;
+}
+
+.delivery-drop-down div span:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 105%;
+    width: 10px;
+    height: 1px;
+    background-color: lightgrey;
+}
+.delivery-drop-down div span:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 105%;
+    width: 10px;
+    height: 1px;
+    background-color: lightgrey;
+}
+
+.header-form{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+}
+
+.header-form > div:before{
+    content: "\f002";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+.timer{
+    width: 100%;
+    font-size: 8px;
+    padding: 2px;
+}
+.timer > img{
+    width: 7%;
+}
+.product-weight{
+    font-size: 12px;
+    
+}
+
+.card-title {
+    height: 45px;
+}
+
+footer ul li{
+    flex-basis: 33%;
+}
+.footer-middel div p {
+font-size: 12px;
+}
+
+.footer-middel div div i {
+    font-size: 40px;
+    }
+.closebth{
+    position: absolute;
+    top:5px;
+    left:10px;
+    font-size: 15px;
+
+}
+.modal-footer p
+{
+font-size: 12px;
+}
+
+.cartpopup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display:none;
+    justify-content: space-between;
+}
+
+.cartpop-inner{
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+    background: white;
+    right: 0%;
+   top: 50%;
+    transform: translate(0%, -50%) scale(1);
+/*			transform-origin: top;*/
+    transition: 0.2s;
+}
+.cartpop-inner div h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.cartpop-inner div p{
+    font-size: 15px;
+    
+}
+
+.cartpop-inner div button{
+    font-size: 13px;
+    
+}
+.fa-xmark{
+    cursor: pointer;;
+}
+
+.innertime img{
+    text-align: center;
+width: 2%;
+}
+
+.innertime{
+     font-size: 11px;
+
+}
+.fontweightsize{
+    font-size: 12px;
+}
+.taxesfont{
+    font-size: 10px;
+}
+
+.deliverydetails div p{
+    font-size: 13px;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 25px;
+  }
+
+  .nav-menu::after{
+    position: absolute;
+    left: 45px;
+    top: 21px;
+}
+.navdown {
+    width: 200px !important;
+}
